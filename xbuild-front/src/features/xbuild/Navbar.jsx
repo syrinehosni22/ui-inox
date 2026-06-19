@@ -91,7 +91,7 @@ export default function Navbar({ active, info }) {
         boxShadow: scrolled ? "0 4px 30px rgba(0,0,0,.4)" : "none",
       }}>
         <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 108 }}>
-          <button onClick={() => scrollTo("#home")} style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}>
+          <button onClick={() => scrollTo("#home")} style={{ background: "none", border: "none", cursor: "pointer", padding: 0, display: "flex", alignItems: "center", height: "100%" }}>
             <Logo info={info} dark size="md" />
           </button>
 
