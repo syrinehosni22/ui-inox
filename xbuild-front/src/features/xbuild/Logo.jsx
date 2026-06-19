@@ -8,7 +8,7 @@
  *   onClick    — callback optionnel
  */
 export default function Logo({ info = {}, dark = true, size = "md", onClick, style = {} }) {
-  const sizes = { sm: { img: 36, font: 22 }, md: { img: 56, font: 34 }, lg: { img: 72, font: 44 } };
+  const sizes = { sm: { img: 36, font: 22 }, md: { img: 88, font: 72 }, lg: { img: 72, font: 44 } };
   const { img: imgH, font: fontSize } = sizes[size] || sizes.md;
   const color = dark ? "#fff" : "#121315";
 

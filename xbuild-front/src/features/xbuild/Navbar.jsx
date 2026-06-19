@@ -90,12 +90,12 @@ export default function Navbar({ active, info }) {
         transition: "top .3s, box-shadow .3s",
         boxShadow: scrolled ? "0 4px 30px rgba(0,0,0,.4)" : "none",
       }}>
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 108 }}>
           <button onClick={() => scrollTo("#home")} style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}>
             <Logo info={info} dark size="md" />
           </button>
 
-          <nav style={{ display: "flex", gap: 0, alignItems: "stretch", height: 72 }} className="desktop-nav">
+          <nav style={{ display: "flex", gap: 0, alignItems: "stretch", height: 108 }} className="desktop-nav">
             {NAV_LINKS.map(link => (
               <button
                 key={link.key}
