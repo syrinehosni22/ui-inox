@@ -1,0 +1,287 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "projects": "Réalisations",
+    "process": "Notre Méthode",
+    "blog": "Actualités",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Bienvenue chez {{company}}",
+    "description": "Experts en plomberie, rénovation et installations sanitaires depuis {{years}} ans. Intervention rapide, travail soigné et garantie sur toutes nos prestations.",
+    "ourServices": "Nos Services",
+    "viewProjects": "Voir les Réalisations",
+    "stats": {
+      "projects": "Chantiers Réalisés",
+      "clients": "Clients Satisfaits",
+      "experience": "Années d'Expérience",
+      "engineers": "Techniciens Certifiés"
+    }
+  },
+  "services": {
+    "tag": "Ce Que Nous Faisons",
+    "title": "Nos Services de Plomberie & Rénovation",
+    "learnMore": "En Savoir Plus",
+    "tag_service": "PROFESSIONNEL",
+    "items": [
+      {
+        "title": "Plomberie Générale",
+        "desc": "Installation, réparation et remplacement de canalisations, robinetterie, chauffe-eau et systèmes d'alimentation en eau. Intervention d'urgence 24h/7j.",
+        "icon": "🔧"
+      },
+      {
+        "title": "Installations Sanitaires",
+        "desc": "Pose et rénovation complète de salles de bains, WC, douches italiennes, baignoires et équipements sanitaires haut de gamme. Finitions impeccables.",
+        "icon": "🚿"
+      },
+      {
+        "title": "Rénovation & Construction",
+        "desc": "Travaux de rénovation tous corps d'état : carrelage, revêtements, cloisons, faux-plafonds et aménagement intérieur sur mesure.",
+        "icon": "🏠"
+      },
+      {
+        "title": "Débouchage & Évacuation",
+        "desc": "Débouchage de canalisations, hydrocurage, inspection caméra et traitement des problèmes d'évacuation pour particuliers et professionnels.",
+        "icon": "💧"
+      },
+      {
+        "title": "Chauffage & Climatisation",
+        "desc": "Installation et entretien de chaudières, radiateurs, planchers chauffants, pompes à chaleur et systèmes de climatisation réversible.",
+        "icon": "🌡️"
+      },
+      {
+        "title": "Détection de Fuites",
+        "desc": "Recherche et localisation de fuites invisibles par thermographie et capteurs acoustiques, sans destruction. Réparation garantie.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Mixte / Tous Corps d'État",
+        "desc": "Prestation combinée regroupant plusieurs corps de métier : plomberie, rénovation, sanitaire, chauffage et finitions. Solution globale pour vos projets multi-travaux.",
+        "icon": "🏗️"
+      }
+    ]
+  },
+  "about": {
+    "tag": "À Propos de Nous",
+    "title": "Votre Spécialiste en Plomberie & Rénovation Sanitaire",
+    "exploreMore": "Découvrir Nos Services →",
+    "ceoLabel": "Fondateur & Gérant",
+    "industrialLabel": "Travaux Sanitaires",
+    "awardTitle": "Certifié RGE",
+    "awardSub": "Reconnu Garant de l'Environnement",
+    "features": {
+      "satisfaction": "Satisfaction Client Garantie",
+      "certified": "Artisans Certifiés Qualibat",
+      "flexible": "Devis Gratuit & Transparent",
+      "safety": "Conformité aux Normes DTU"
+    }
+  },
+  "projects": {
+    "tag": "Nos Réalisations",
+    "title": "Chantiers Récemment Terminés",
+    "items": [
+      {
+        "title": "Rénovation Salle de Bains Complète",
+        "category": "Sanitaire"
+      },
+      {
+        "title": "Installation Réseau Plomberie Neuf",
+        "category": "Plomberie"
+      },
+      {
+        "title": "Création Douche à l'Italienne",
+        "category": "Rénovation"
+      },
+      {
+        "title": "Remplacement Chaudière Gaz",
+        "category": "Chauffage"
+      },
+      {
+        "title": "Réhabilitation WC & Évacuations",
+        "category": "Sanitaire"
+      },
+      {
+        "title": "Aménagement Cuisine & Plomberie",
+        "category": "Rénovation"
+      }
+    ]
+  },
+  "process": {
+    "tag": "Notre Méthode de Travail",
+    "title": "Un Suivi Rigoureux de Votre Chantier",
+    "description": "De la première prise de contact jusqu'à la réception des travaux, nous vous accompagnons à chaque étape avec transparence et professionnalisme.",
+    "steps": {
+      "planning": "Diagnostic",
+      "development": "Travaux",
+      "completion": "Réception"
+    },
+    "items": [
+      {
+        "title": "Diagnostic & Devis Gratuit",
+        "desc": "Nous étudions votre situation sur place, identifions les besoins et vous remettons un devis détaillé et transparent sans engagement."
+      },
+      {
+        "title": "Réalisation des Travaux",
+        "desc": "Nos techniciens interviennent avec du matériel professionnel, dans le respect des délais convenus et des normes en vigueur (DTU, NF)."
+      },
+      {
+        "title": "Réception & Garantie",
+        "desc": "Contrôle qualité final en votre présence, remise des documents de garantie et assistance après-chantier pour votre tranquillité."
+      }
+    ]
+  },
+  "stats": {
+    "tag": "Nos Chiffres Clés",
+    "title": "Une Entreprise de Confiance Depuis Plus de 15 Ans.",
+    "description": "Notre réputation repose sur la qualité de nos interventions, la réactivité de notre équipe et la satisfaction durable de nos clients particuliers et professionnels.",
+    "learnMore": "Découvrir l'Entreprise →",
+    "features": {
+      "iso": "Certifié Qualibat",
+      "support": "Urgence 24h/7j",
+      "team": "Équipe Qualifiée",
+      "safe": "Garantie Décennale"
+    },
+    "items": [
+      {
+        "label": "Chantiers Réalisés"
+      },
+      {
+        "label": "Clients Satisfaits"
+      },
+      {
+        "label": "Interventions/An"
+      }
+    ]
+  },
+  "testimonials": {
+    "tag": "Avis Clients",
+    "title": "Ce Que Disent Nos Clients",
+    "items": [
+      {
+        "text": "Intervention rapide après une fuite d'eau importante. L'équipe a été très professionnelle, propre et efficace. La réparation tient parfaitement depuis plusieurs mois."
+      },
+      {
+        "text": "Rénovation complète de notre salle de bains en 5 jours chrono. Résultat magnifique, conforme au devis, sans mauvaise surprise. Je recommande vivement."
+      },
+      {
+        "text": "Excellent travail pour l'installation de notre nouveau système de chauffage. Techniciens à l'écoute, conseils avisés et finitions soignées. Très satisfait."
+      }
+    ]
+  },
+  "news": {
+    "tag": "Actualités & Conseils",
+    "title": "Nos Derniers Articles & Conseils",
+    "readMore": "Lire la Suite",
+    "noContent": "Contenu indisponible pour le moment.",
+    "featured": "À LA UNE",
+    "items": [
+      {
+        "tag": "Conseil",
+        "date": "10 Mars 2025",
+        "title": "5 signes qui indiquent une fuite d'eau cachée dans votre habitation",
+        "author": "Équipe Technique",
+        "excerpt": "Une facture d'eau anormalement élevée, des taches d'humidité ou une odeur persistante... apprenez à détecter une fuite avant qu'elle ne devienne grave."
+      },
+      {
+        "tag": "Rénovation",
+        "date": "25 Février 2025",
+        "title": "Rénover sa salle de bains : par où commencer et comment budgéter",
+        "author": "Jean-Marc Dupont",
+        "featured": true,
+        "excerpt": "Démolition, plomberie, carrelage, sanitaires... notre guide complet pour planifier votre rénovation salle de bains sans stress."
+      },
+      {
+        "tag": "Entretien",
+        "date": "14 Janvier 2025",
+        "title": "Entretien annuel de chaudière : pourquoi c'est obligatoire et comment s'y préparer",
+        "author": "Sarah Benali",
+        "excerpt": "L'entretien annuel de votre chaudière est une obligation légale. Découvrez ce que cela implique et comment bien choisir votre prestataire."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Nous Contacter",
+    "title": "Besoin d'un Plombier ou d'un Devis ?",
+    "subtitle": "Réponse Rapide Garantie",
+    "description": "Fuite, panne, rénovation ou installation neuve — notre équipe est disponible 6j/7 pour intervenir rapidement chez vous.",
+    "location": "Adresse",
+    "email": "Email",
+    "phone": "Urgence Plomberie",
+    "hours": "Horaires",
+    "formTitle": "Demande de Devis Gratuit",
+    "name": "Votre Nom",
+    "emailField": "Adresse Email",
+    "phoneField": "Téléphone",
+    "message": "Décrivez votre besoin",
+    "send": "Envoyer ma demande →",
+    "success": "✓ Demande envoyée ! Nous vous rappelons sous 24h.",
+    "callNow": "Appelez-nous maintenant",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Adresse Email",
+      "phone": "Téléphone",
+      "message": "Décrivez votre besoin (fuite, rénovation, installation...)",
+      "selectService": "Type de prestation",
+      "send": "Envoyer ma demande →"
+    },
+    "callUs": "Appel d'urgence"
+  },
+  "footer": {
+    "aboutTitle": "À Propos de l'Entreprise",
+    "quickLinks": "Liens Rapides",
+    "ourServices": "Nos Prestations",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Recevez nos conseils plomberie et nos offres saisonnières directement dans votre boîte mail.",
+    "subscribe": "S'abonner →",
+    "emailPlaceholder": "Votre email",
+    "copyright": "© Tous droits réservés 2025 par",
+    "links": {
+      "about": "À Propos",
+      "contact": "Contact",
+      "blog": "Conseils & Actualités",
+      "faq": "FAQ",
+      "construction": "Travaux de Construction",
+      "renovation": "Rénovation Sanitaire",
+      "materials": "Installation Sanitaire",
+      "management": "Dépannage Urgence"
+    }
+  },
+  "navbar": {
+    "getQuote": "DEVIS GRATUIT →",
+    "admin": "Admin ↗"
+  },
+  "sidebar": {
+    "contactInfo": "Coordonnées",
+    "getQuote": "Demander un Devis →"
+  },
+  "topbar": {
+    "careers": "Recrutement",
+    "contact": "Contact"
+  },
+  "brands": [
+    "🔧 Grohe",
+    "🚿 Hansgrohe",
+    "💧 Geberit",
+    "🌡️ Atlantic",
+    "🔩 Porcher",
+    "🏠 Jacob Delafon"
+  ],
+  "loading": "Chargement...",
+  "admin": {
+    "langTab": "Langue",
+    "langFr": "🇫🇷 Français",
+    "langEn": "🇬🇧 English",
+    "titleFr": "Titre (FR)",
+    "titleEn": "Title (EN)",
+    "descFr": "Description (FR)",
+    "descEn": "Description (EN)",
+    "taglineFr": "Slogan FR",
+    "taglineEn": "Slogan EN",
+    "aboutFr": "À propos (FR)",
+    "aboutEn": "About (EN)",
+    "footerFr": "Footer (FR)",
+    "footerEn": "Footer (EN)"
+  }
+}

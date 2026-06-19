@@ -1,0 +1,287 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Our Process",
+    "blog": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome To {{company}}",
+    "description": "Specialists in plumbing, renovation and sanitary installations for {{years}} years. Fast response, quality work and full guarantee on every job.",
+    "ourServices": "Our Services",
+    "viewProjects": "View Projects",
+    "stats": {
+      "projects": "Jobs Completed",
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "engineers": "Certified Technicians"
+    }
+  },
+  "services": {
+    "tag": "What We Do",
+    "title": "Our Plumbing & Renovation Services",
+    "learnMore": "Learn More",
+    "tag_service": "PROFESSIONAL",
+    "items": [
+      {
+        "title": "General Plumbing",
+        "desc": "Installation, repair and replacement of pipes, faucets, water heaters and water supply systems. Emergency response available 24/7.",
+        "icon": "🔧"
+      },
+      {
+        "title": "Sanitary Installations",
+        "desc": "Full installation and renovation of bathrooms, toilets, walk-in showers, bathtubs and premium sanitary equipment. Flawless finish guaranteed.",
+        "icon": "🚿"
+      },
+      {
+        "title": "Renovation & Construction",
+        "desc": "Complete renovation works: tiling, wall coverings, partitions, suspended ceilings and bespoke interior fittings tailored to your project.",
+        "icon": "🏠"
+      },
+      {
+        "title": "Drain Unblocking",
+        "desc": "Drain unblocking, hydro-jetting, camera inspection and drainage problem treatment for both residential and commercial properties.",
+        "icon": "💧"
+      },
+      {
+        "title": "Heating & Air Conditioning",
+        "desc": "Installation and maintenance of boilers, radiators, underfloor heating, heat pumps and reversible air conditioning systems.",
+        "icon": "🌡️"
+      },
+      {
+        "title": "Leak Detection",
+        "desc": "Non-destructive detection and location of hidden leaks using thermography and acoustic sensors. Guaranteed repair included.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Mixed / All Trades",
+        "desc": "Combined service covering multiple trades: plumbing, renovation, sanitary, heating and finishing. A comprehensive solution for multi-work projects.",
+        "icon": "🏗️"
+      }
+    ]
+  },
+  "about": {
+    "tag": "About Our Company",
+    "title": "Your Specialist in Plumbing & Sanitary Renovation",
+    "exploreMore": "Discover Our Services →",
+    "ceoLabel": "Founder & Director",
+    "industrialLabel": "Sanitary Works",
+    "awardTitle": "Qualibat Certified",
+    "awardSub": "Recognised Quality Contractor",
+    "features": {
+      "satisfaction": "100% Client Satisfaction",
+      "certified": "Qualibat Certified Craftsmen",
+      "flexible": "Free & Transparent Quote",
+      "safety": "Full DTU Standards Compliance"
+    }
+  },
+  "projects": {
+    "tag": "Our Completed Work",
+    "title": "Recently Finished Projects",
+    "items": [
+      {
+        "title": "Full Bathroom Renovation",
+        "category": "Sanitary"
+      },
+      {
+        "title": "New Plumbing Network",
+        "category": "Plumbing"
+      },
+      {
+        "title": "Walk-in Shower Creation",
+        "category": "Renovation"
+      },
+      {
+        "title": "Gas Boiler Replacement",
+        "category": "Heating"
+      },
+      {
+        "title": "Toilet & Drainage Upgrade",
+        "category": "Sanitary"
+      },
+      {
+        "title": "Kitchen Plumbing Fit-out",
+        "category": "Renovation"
+      }
+    ]
+  },
+  "process": {
+    "tag": "How We Work",
+    "title": "Rigorous Follow-Through On Every Job",
+    "description": "From your first contact to the final handover, we guide you through every step with full transparency and professionalism.",
+    "steps": {
+      "planning": "Assessment",
+      "development": "Works",
+      "completion": "Handover"
+    },
+    "items": [
+      {
+        "title": "On-Site Assessment & Free Quote",
+        "desc": "We visit your property, assess the situation and provide a detailed, no-obligation quote with full cost transparency."
+      },
+      {
+        "title": "Works & Installation",
+        "desc": "Our certified technicians carry out the work with professional equipment, on schedule and fully compliant with current standards."
+      },
+      {
+        "title": "Handover & Guarantee",
+        "desc": "Final quality check in your presence, full warranty documents issued and after-service support for your peace of mind."
+      }
+    ]
+  },
+  "stats": {
+    "tag": "Our Key Figures",
+    "title": "A Trusted Company For Over 15 Years.",
+    "description": "Our reputation is built on the quality of our work, the speed of our response and the lasting satisfaction of our residential and commercial clients.",
+    "learnMore": "Learn More →",
+    "features": {
+      "iso": "Qualibat Certified",
+      "support": "24/7 Emergency",
+      "team": "Skilled Team",
+      "safe": "10-Year Guarantee"
+    },
+    "items": [
+      {
+        "label": "Jobs Completed"
+      },
+      {
+        "label": "Satisfied Clients"
+      },
+      {
+        "label": "Call-outs Per Year"
+      }
+    ]
+  },
+  "testimonials": {
+    "tag": "Client Reviews",
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "text": "Very fast response after a major leak. The team was professional, tidy and efficient. The repair has held perfectly for months now."
+      },
+      {
+        "text": "Complete bathroom renovation done in 5 working days. Beautiful result, exactly as quoted — no surprises. Highly recommended."
+      },
+      {
+        "text": "Excellent work installing our new heating system. Attentive technicians, great advice and neat finish throughout. Very satisfied."
+      }
+    ]
+  },
+  "news": {
+    "tag": "News & Tips",
+    "title": "Latest Articles & Practical Advice",
+    "readMore": "Read Mores",
+    "noContent": "Content not available yet.",
+    "featured": "FEATURED",
+    "items": [
+      {
+        "tag": "Tips",
+        "date": "10 March 2025",
+        "title": "5 signs of a hidden water leak in your home",
+        "author": "Technical Team",
+        "excerpt": "An unusually high water bill, damp patches or a persistent smell — learn how to spot a hidden leak before it becomes serious."
+      },
+      {
+        "tag": "Renovation",
+        "date": "25 February 2025",
+        "title": "Renovating your bathroom: where to start and how to budget",
+        "author": "Jean-Marc Dupont",
+        "featured": true,
+        "excerpt": "Demolition, plumbing, tiling, sanitaryware... our complete guide to planning your bathroom renovation without the stress."
+      },
+      {
+        "tag": "Maintenance",
+        "date": "14 January 2025",
+        "title": "Annual boiler service: why it's mandatory and how to prepare",
+        "author": "Sarah Benali",
+        "excerpt": "Yearly boiler servicing is a legal requirement. Find out what it involves and how to choose the right provider."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Get In Touch",
+    "title": "Need a Plumber or a Quote?",
+    "subtitle": "Fast Response Guaranteed",
+    "description": "Leak, breakdown, renovation or new installation — our team is available 6 days a week to help you quickly.",
+    "location": "Address",
+    "email": "Email",
+    "phone": "Emergency Plumbing",
+    "hours": "Working Hours",
+    "formTitle": "Free Quote Request",
+    "name": "Your Name",
+    "emailField": "Email Address",
+    "phoneField": "Phone Number",
+    "message": "Describe your need",
+    "send": "Send Request →",
+    "success": "✓ Request sent! We'll call you back within 24h.",
+    "callNow": "Call Us Now",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Describe your need (leak, renovation, installation...)",
+      "selectService": "Type of service",
+      "send": "Send My Request →"
+    },
+    "callUs": "Emergency call"
+  },
+  "footer": {
+    "aboutTitle": "About the Company",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Get our plumbing tips and seasonal offers straight to your inbox.",
+    "subscribe": "Subscribe →",
+    "emailPlaceholder": "Your email",
+    "copyright": "© All Rights Reserved 2025 by",
+    "links": {
+      "about": "About Us",
+      "contact": "Contact",
+      "blog": "Tips & News",
+      "faq": "FAQ",
+      "construction": "Construction Works",
+      "renovation": "Sanitary Renovation",
+      "materials": "Sanitary Installations",
+      "management": "Emergency Callout"
+    }
+  },
+  "navbar": {
+    "getQuote": "FREE QUOTE →",
+    "admin": "Admin ↗"
+  },
+  "sidebar": {
+    "contactInfo": "Contact Info",
+    "getQuote": "Request a Quote →"
+  },
+  "topbar": {
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "brands": [
+    "🔧 Grohe",
+    "🚿 Hansgrohe",
+    "💧 Geberit",
+    "🌡️ Atlantic",
+    "🔩 Porcher",
+    "🏠 Jacob Delafon"
+  ],
+  "loading": "Loading...",
+  "admin": {
+    "langTab": "Language",
+    "langFr": "🇫🇷 Français",
+    "langEn": "🇬🇧 English",
+    "titleFr": "Titre (FR)",
+    "titleEn": "Title (EN)",
+    "descFr": "Description (FR)",
+    "descEn": "Description (EN)",
+    "taglineFr": "Slogan FR",
+    "taglineEn": "Slogan EN",
+    "aboutFr": "À propos (FR)",
+    "aboutEn": "About (EN)",
+    "footerFr": "Footer (FR)",
+    "footerEn": "Footer (EN)"
+  }
+}
