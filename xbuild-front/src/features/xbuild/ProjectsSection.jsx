@@ -131,13 +131,13 @@ function ProjectModal({ project, onClose, t }) {
       <div
         onClick={e => e.stopPropagation()}
         style={{
-          background: "var(--c-dark)", borderRadius: 0, maxWidth: 560, width: "100%",
+          background: "var(--c-dark)", borderRadius: 0, maxWidth: 640, width: "100%",
           boxShadow: "0 24px 80px rgba(0,0,0,0.6)",
           overflow: "hidden", animation: "fadeInUp 0.25s ease",
         }}
       >
         {/* Hero / gallery */}
-        <div style={{ height: 240, position: "relative", display: "flex", alignItems: "flex-end" }}>
+        <div style={{ height: 480, position: "relative", display: "flex", alignItems: "flex-end" }}>
           <ModalGallery images={images} bg={project.bg} t={t} />
 
           <div style={{
@@ -229,7 +229,7 @@ export default function ProjectsSection() {
           <div style={{ opacity: visible ? 1 : 0, transform: visible ? "none" : "translateY(30px)", transition: "all 0.7s" }}>
             <SectionTitle tag={t("projects.tag")} title={t("projects.title")} center light />
           </div>
-          <div className="projects-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 240px)", gap: 16, marginTop: 48 }}>
+          <div className="projects-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 380px)", gap: 16, marginTop: 48 }}>
             {projects.map((p, i) => {
               const images = getImages(p);
               return (
