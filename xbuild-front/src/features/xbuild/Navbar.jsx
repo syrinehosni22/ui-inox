@@ -10,19 +10,21 @@ export default function Navbar({ active, info }) {
   const lang = i18n.language;
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const NAV_LINKS = NAV_LINKS_KEYS.map(l => ({ ...l, label: t(`nav.${l.key}`) }));
 
   useEffect(() => {
-    const fn = () => setScrolled(window.scrollY > 60);
-    window.addEventListener("scroll", fn);
-    return () => window.removeEventListener("scroll", fn);
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    const onResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("scroll", onScroll);
+    window.addEventListener("resize", onResize);
+    return () => { window.removeEventListener("scroll", onScroll); window.removeEventListener("resize", onResize); };
   }, []);
 
   const scrollTo = (href) => {
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
     setMobileOpen(false);
   };
-
 
   const socials = [
     { label: "f", key: "socialFacebook", href: info.socialFacebook },
@@ -31,9 +33,13 @@ export default function Navbar({ active, info }) {
     { label: "in",key: "socialLinkedin", href: info.socialLinkedin },
   ].filter(s => info[`${s.key}Active`] !== false);
 
+  // Topbar height is ~37px — only offset on desktop when not scrolled
+  const topbarVisible = !scrolled && !isMobile;
+  const headerTop = topbarVisible ? 37 : 0;
+
   return (
     <>
-      {/* Top utility bar */}
+      {/* Top utility bar — hidden on mobile via CSS */}
       <div
         className="topbar-desktop"
         style={{
@@ -41,7 +47,7 @@ export default function Navbar({ active, info }) {
           borderBottom: "1px solid rgba(255,255,255,.08)",
           padding: "8px 0",
           position: "fixed", top: 0, left: 0, right: 0, zIndex: 1001,
-          display: scrolled ? "none" : "block",
+          display: scrolled || isMobile ? "none" : "block",
         }}
       >
         <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -83,19 +89,19 @@ export default function Navbar({ active, info }) {
       {/* Main nav */}
       <header style={{
         position: "fixed",
-        top: scrolled ? 0 : 37,
+        top: headerTop,
         left: 0, right: 0, zIndex: 1000,
         background: "var(--c-dark2)",
         borderBottom: "2px solid var(--c-primary)",
         transition: "top .3s, box-shadow .3s",
         boxShadow: scrolled ? "0 4px 30px rgba(0,0,0,.4)" : "none",
       }}>
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 108 }}>
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: isMobile ? 70 : 108 }}>
           <button onClick={() => scrollTo("#home")} style={{ background: "none", border: "none", cursor: "pointer", padding: 0, display: "flex", alignItems: "center", height: "100%" }}>
             <Logo info={info} dark size="md" />
           </button>
 
-          <nav style={{ display: "flex", gap: 0, alignItems: "stretch", height: 108 }} className="desktop-nav">
+          <nav style={{ display: "flex", gap: 0, alignItems: "stretch", height: isMobile ? 70 : 108 }} className="desktop-nav">
             {NAV_LINKS.map(link => (
               <button
                 key={link.key}
@@ -130,10 +136,9 @@ export default function Navbar({ active, info }) {
                 background: "var(--c-primary)", color: "var(--c-dark)",
                 fontFamily: "var(--font-head)", fontWeight: 800, fontSize: 13,
                 letterSpacing: 1, textTransform: "uppercase",
-                padding: "11px 22px", textDecoration: "none",
+                padding: "11px 22px",
                 display: "flex", alignItems: "center", gap: 8,
                 border: "none", cursor: "pointer",
-                clip_path: "polygon(0 0,calc(100% - 10px) 0,100% 100%,0 100%)",
               }}
             >
               {t("navbar.getQuote")}
