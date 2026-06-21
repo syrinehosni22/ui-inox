@@ -41,19 +41,61 @@ export default function HeroSection({ info }) {
         @keyframes accentIn{from{width:0}to{width:100%}}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
         .hero-tag-line::after{content:'';display:block;width:50px;height:3px;background:var(--c-primary);margin-top:16px}
+
+        .hero-bg{
+          position:absolute;inset:0;
+          background-size:cover;
+          background-position:center center;
+          animation:kenBurns 22s ease-in-out infinite alternate;
+        }
+        .hero-overlay{
+          position:absolute;inset:0;
+          background:linear-gradient(90deg,rgba(20,26,40,.97) 46%,rgba(20,26,40,.65) 100%);
+        }
+        .hero-content{
+          position:relative;flex:1;display:flex;align-items:center;
+          max-width:1320px;margin:0 auto;
+          padding:180px 48px 140px 64px;width:100%;
+        }
+        .hero-stats-bar{
+          max-width:1320px;margin:0 auto;
+          padding:0 64px;display:flex;align-items:stretch;flex-wrap:wrap;
+        }
+
+        @media(max-width:900px){
+          .hero-overlay{
+            background:linear-gradient(180deg,rgba(20,26,40,.8) 0%,rgba(20,26,40,.97) 55%) !important;
+          }
+          .hero-content{padding:130px 32px 100px 32px !important;}
+          .hero-stats-bar{padding:0 32px !important;}
+        }
+        @media(max-width:640px){
+          .hero-bg{background-position:60% center !important;}
+          .hero-overlay{
+            background:linear-gradient(180deg,rgba(20,26,40,.7) 0%,rgba(20,26,40,.98) 50%) !important;
+          }
+          .hero-content{padding:110px 20px 80px 20px !important;}
+          .hero-stats-bar{padding:0 12px !important;}
+          .hero-btns{flex-direction:column !important;}
+          .hero-btns a,.hero-btns button{width:100% !important;justify-content:center !important;text-align:center !important;}
+          .hero-stat-card{flex:1 1 45% !important;padding:16px 12px !important;border-left:none !important;border-top:1px solid rgba(26,31,46,.15) !important;}
+        }
+        @media(max-width:400px){
+          .hero-stat-card{flex:1 1 100% !important;}
+        }
       `}</style>
 
-      {/* BG */}
-      <div style={{ position: "absolute", inset: 0, backgroundImage: `url('${bgImage}')`, backgroundSize: "cover", backgroundPosition: "center", animation: "kenBurns 22s ease-in-out infinite alternate" }} />
-      {/* Gradient overlay — strong left darkness for readability */}
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(20,26,40,.97) 2%,rgba(20,26,40,.65) 50%)" }} />
+      {/* BG — responsive via className */}
+      <div className="hero-bg" style={{ backgroundImage: `url('${bgImage}')` }} />
+      {/* Gradient overlay */}
+      <div className="hero-overlay" />
       {/* Yellow accent top line */}
       <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 4, background: "var(--c-primary)", zIndex: 2 }} />
       {/* Left pillar */}
       <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 6, background: "var(--c-primary)" }} />
 
       {/* Hero content */}
-      <div className="hero-content" style={{ position: "relative", flex: 1, display: "flex", alignItems: "center", maxWidth: 1320, margin: "0 auto", padding: "180px 48px 140px 64px", width: "100%" }}>
+      <div className="hero-content">
         <div style={{ maxWidth: 620 }}>
           {/* Tag */}
           <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 24, animation: "fadeUp .7s ease .1s both" }}>
@@ -65,7 +107,7 @@ export default function HeroSection({ info }) {
 
           {/* Typed heading */}
           <h1 className="hero-tag-line" style={{
-            fontSize: "clamp(40px,5.5vw,76px)", fontWeight: 900, lineHeight: 1.05,
+            fontSize: "clamp(32px,5.5vw,76px)", fontWeight: 900, lineHeight: 1.05,
             color: "#fff", fontFamily: "var(--font-head)", margin: "0 0 28px",
             letterSpacing: -1, animation: "fadeUp .9s ease .25s both",
           }}>
@@ -92,7 +134,7 @@ export default function HeroSection({ info }) {
 
       {/* Stats ribbon */}
       <div style={{ position: "relative", background: "var(--c-primary)", width: "100%" }}>
-        <div className="hero-stats-bar" style={{ maxWidth: 1320, margin: "0 auto", padding: "0 64px", display: "flex", alignItems: "stretch", flexWrap: "wrap" }}>
+        <div className="hero-stats-bar">
           {stats.map((s, i) => (
             <div
               key={i}
