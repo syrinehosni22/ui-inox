@@ -46,7 +46,7 @@ export default function HeroSection({ info }) {
       {/* BG */}
       <div style={{ position: "absolute", inset: 0, backgroundImage: `url('${bgImage}')`, backgroundSize: "cover", backgroundPosition: "center", animation: "kenBurns 22s ease-in-out infinite alternate" }} />
       {/* Gradient overlay — strong left darkness for readability */}
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(20,26,40,.97) 46%,rgba(20,26,40,.65) 100%)" }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(20,26,40,.97) 2%,rgba(20,26,40,.65) 50%)" }} />
       {/* Yellow accent top line */}
       <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 4, background: "var(--c-primary)", zIndex: 2 }} />
       {/* Left pillar */}

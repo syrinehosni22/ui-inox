@@ -10,7 +10,7 @@ export default function Preloader({ done, info }) {
     }}>
       {/* Logo / company name */}
       <div style={{ color: "var(--c-primary)", fontFamily: "var(--font-head)", fontWeight: 900, fontSize: 28, letterSpacing: 4, textTransform: "uppercase", marginBottom: 32 }}>
-        {info?.companyName || "XBUILD"}
+        {info?.companyName }
       </div>
       {/* Loading bar */}
       <div style={{ width: 200, height: 3, background: "rgba(255,255,255,.1)", overflow: "hidden" }}>
